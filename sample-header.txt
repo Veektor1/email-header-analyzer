@@ -1,0 +1,13 @@
+Received: from suspicious-domain.com (unknown [45.89.23.101])
+    by mail.secure-path.io with ESMTPS id x1X123456789
+    for <info@secure-path.io>; Wed, 19 Jun 2025 14:32:10 +0000
+
+Authentication-Results: secure-path.io;
+    spf=fail (sender IP is 45.89.23.101)
+    smtp.mailfrom=secure-payments.net;
+    dkim=fail header.d=secure-payments.net
+
+Return-Path: <support@secure-payments.net>
+From: Secure Payments <support@secure-payments.net>
+To: info@secure-path.io
+Subject: Important Account Update
